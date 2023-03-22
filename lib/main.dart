@@ -3,7 +3,6 @@ import 'package:flutter_application/screens/bmi_screen.dart';
 import 'package:flutter_application/screens/intro_screen.dart';
 import 'package:flutter_driver/driver_extension.dart';
 void main() {
-  
   enableFlutterDriverExtension();
   runApp(GlobeApp());
 }

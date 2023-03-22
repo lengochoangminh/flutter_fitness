@@ -55,14 +55,15 @@ class _BmiScreenState extends State<BmiScreen> {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: TextField(
+                  key: Key("txt_height"),
                   controller: txtHeight,
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(hintText: heightMessage)),
-                  key: UniqueKey(),
             ),
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: TextField(
+                  key: Key("txt_weight"),
                   controller: txtWeight,
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(hintText: weightMessage)),
